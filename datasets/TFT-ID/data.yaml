@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['ball', 'number', 'player', 'player-dribble', 'player-jump-shot', 'player-screen', 'player-shot-block', 'referee', 'rim']
+
+roboflow:
+  workspace: vivek-wnq8p
+  project: basketball-players-detection-fhjpk
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/vivek-wnq8p/basketball-players-detection-fhjpk/dataset/1
